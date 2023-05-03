@@ -1,0 +1,65 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Vegas Nights Extravaganza</title>
+	<style>
+		body {
+			background-color: #f2f2f2;
+			font-family: Arial, sans-serif;
+		}
+		.container {
+			margin: 0 auto;
+			padding: 50px 20px;
+			max-width: 800px;
+			text-align: center;
+		}
+		h1 {
+			color: #333;
+			font-size: 36px;
+			margin-bottom: 20px;
+		}
+		p {
+			color: #555;
+			font-size: 18px;
+			margin-bottom: 30px;
+			line-height: 1.5;
+		}
+		.button {
+			display: inline-block;
+			padding: 10px 20px;
+			background-color: #337ab7;
+			color: #fff;
+			border: none;
+			border-radius: 5px;
+			font-size: 18px;
+			cursor: pointer;
+			transition: background-color 0.3s ease;
+		}
+		.button:hover {
+			background-color: #286090;
+		}
+		.button.secondary {
+			background-color: #d9534f;
+		}
+		.button.secondary:hover {
+			background-color: #c9302c;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>Vegas Nights Extravaganza</h1>
+		<p>To delete your data, please enter your email address below.</p>
+		<form>
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" required>
+			<button type="submit" class="button">Delete Data</button>
+		</form>
+		<p>Your personal information, including your name, address, phone number, and payment information will be permanently deleted. Your betting history and account activity will be kept for our records.</p>
+		<button class="button secondary">Cancel</button>
+	</div>
+</body>
+</html>
